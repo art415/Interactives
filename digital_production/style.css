@@ -6,9 +6,12 @@ body {
 
 h1 {
     font-family: Impact;
-    font-size: 5em;
+    font-size: 7em;
     padding-bottom:0%;
-    padding-top: 10%
+    padding-top: 8%;
+    text-align: center;
+    width: 100%;
+    margin: auto;
 
   }
 
@@ -33,4 +36,26 @@ h4 {
     font-size: 1.5em;
     font-style: italic;
 }
+
+#content {
+    width: 80%;
+    margin: auto;
+    font-family: 'Arial Narrow';
+}
+
+#embed {
+    width: 80%;
+    margin: auto;
+}
+
+/* mobile view; responsive design */
+
+@media (orientation: portrait) {
+    #content {
+        width: 100%;
+    }
+}
+
+
+  
 

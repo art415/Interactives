@@ -1,19 +1,19 @@
 body {
-    padding-left: 10%;
-    padding-right: 10%;
     background-color: #bd5703;
   }
 
+
+
 h1 {
     font-family: Impact;
-    font-size: 7em;
+    font-size:6em;
     padding-bottom:0%;
     padding-top: 8%;
     text-align: center;
     width: 100%;
     margin: auto;
 
-  }
+}
 
 #colorTwo {
     font-style: italic;
@@ -24,6 +24,7 @@ h2 {
     font-family: Impact;
     font-size: 2em;
     padding-top:0%;
+    text-align: center;
 }
 
 h3 {
@@ -37,15 +38,22 @@ h4 {
     font-style: italic;
 }
 
+h5 {
+    font-family: 'Arial Narrow';
+    font-size: 1em;
+    font-style: italic;
+    color: white
+}
+
 #content {
     width: 80%;
     margin: auto;
     font-family: 'Arial Narrow';
+    font-size: 1.5em
 }
 
 #embed {
-    width: 80%;
-    margin: auto;
+    text-align: center;
 }
 
 /* mobile view; responsive design */
